@@ -26,10 +26,11 @@ hr {
   position: inherit;
   border-color: #c9d6df;
   border-style: none;
-  margin-top: 5rem;
+  bottom-top: 5rem;
   border-top-style: dotted;
   border-width: 7px;
   width: 5%;
+  display: inline-block;
 }
 
 p {
@@ -38,6 +39,7 @@ p {
 
 .skills {
   padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 .middle-container {
@@ -46,7 +48,7 @@ p {
 }
 
 .bottom-container {
-  background-color: #849ab4;
+  background-color: #3f68ac;
   padding-top: 80px;
   padding-bottom: 50px;
 }
@@ -84,7 +86,7 @@ p {
   width: 25%;
   float: right;
   margin-left: 30px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -137,9 +139,8 @@ p {
 
 .btn {
   margin-top: 2rem;
-  background-color: #849ab4;
+  background-color: #3f68ac;
   border-radius: 6px;
-  border: 1px solid #849ab4;
   display: inline-block;
   cursor: pointer;
   color: white;
@@ -151,7 +152,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #41537e;
+  background-color: #849ab4;
 }
 
 .btn:active {

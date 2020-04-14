@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4rem;
+  color: #3f68ac;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f68ac;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f68ac;
+}
+
+hr {
+  position: inherit;
+  border-color: #c9d6df;
+  border-style: none;
+  margin-top: 5rem;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 5%;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.skills {
+  padding-top: 2rem;
+}
+
+.middle-container {
+  display: inline-block;
+  width: 80%;
+}
+
+.bottom-container {
+  background-color: #849ab4;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.top-container {
+  background-color: #d2d8de;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 15%;
+  width: 12rem;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 12rem;
+  right: 20%;
+  top: 50px;
+}
+
+.mypicture {
+  width: 150px;
+  padding-top: 2rem;
+}
+
+.picture18 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.picture43 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.footer-link {
+  display: inline-block;
+  color: #263356;
+  margin: 0 50px 50px 50px;
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+.discriprion {
+  text-align: left;
+}
+
+.scale-43-title {
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.scale-18-title {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.copy-wright {
+  color: #EAF6F6;
+  padding-bottom: 10px;
+}
+
+.contact-me {
+  padding-bottom: 5rem;
+  line-height: 2;
+}
+
+.intro {
+  width: 60%;
+  margin: auto;
+}
+
+.btn {
+  margin-top: 2rem;
+  background-color: #849ab4;
+  border-radius: 6px;
+  border: 1px solid #849ab4;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #41537e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.car {
+  width: 30%
+}

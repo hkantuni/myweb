@@ -36,20 +36,21 @@ hr {
 p {
   line-height: 1.6;
 }
+
 a {
   text-decoration: none;
 }
 
-
 .skills {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
-.profile{
+.profile {
   padding-bottom: 100px;
   padding-top: 30px;
 }
+
 .middle-container {
   display: inline-block;
   width: 80%;
@@ -94,7 +95,6 @@ a {
   width: 25%;
   float: right;
   margin-left: 30px;
-
 }
 
 .title {
@@ -146,12 +146,14 @@ a {
   width: 60%;
   margin: auto;
 }
+
 .last-h3 {
   width: 70%;
   font-weight: lighter;
   font-size: 1em;
   margin: auto;
 }
+
 .last-para {
   width: 70%;
   font-weight: lighter;
@@ -185,7 +187,7 @@ a {
 .car {
   width: 30%
 }
-.footer-link:hover  {
-  color: white;
 
+.footer-link:hover {
+  color: white;
 }

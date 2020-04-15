@@ -54,8 +54,14 @@ a {
 .middle-container {
   display: inline-block;
   width: 80%;
+
 }
 
+.middle-container18 {
+  display: inline-block;
+  width: 80%;
+  padding-bottom: 400px; /*  remove after developing page */
+}
 .bottom-container {
   background-color: #3f68ac;
   padding-top: 80px;
@@ -89,12 +95,24 @@ a {
   width: 25%;
   float: left;
   margin-right: 30px;
+  opacity: 1;
+	transition: .3s ease-in-out;
+}
+.picture18:hover {
+  opacity: 0.5;
+
 }
 
 .picture43 {
   width: 25%;
   float: right;
   margin-left: 30px;
+  opacity: 1;
+	transition: .3s ease-in-out;
+}
+.picture43:hover {
+  opacity: 0.5;
+
 }
 
 .title {
@@ -102,14 +120,6 @@ a {
   margin-top: 0;
   font-weight: normal;
   line-height: 2;
-}
-
-.footer-link {
-  display: inline-block;
-  color: #263356;
-  margin: 0 50px 50px 50px;
-  font-weight: bold;
-  font-
 }
 
 .skill-row {
@@ -191,3 +201,17 @@ a {
 .footer-link:hover {
   color: white;
 }
+.footer-link {
+  display: inline-block;
+  color: #263356;
+  margin: 0 50px 50px 50px;
+  font-weight: bold;
+}
+.back-link {
+  display: block;
+  color: white;
+  margin: 0 50px 50px 50px;
+  font-weight: bold;
+}
+.back-link:hover {
+  color: #263356;;

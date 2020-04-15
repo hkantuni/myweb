@@ -26,7 +26,7 @@ hr {
   position: inherit;
   border-color: #c9d6df;
   border-style: none;
-  bottom-top: 5rem;
+  border-top: 5rem;
   border-top-style: dotted;
   border-width: 7px;
   width: 5%;
@@ -36,12 +36,20 @@ hr {
 p {
   line-height: 1.6;
 }
+a {
+  text-decoration: none;
+}
+
 
 .skills {
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 
+.profile{
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
 .middle-container {
   display: inline-block;
   width: 80%;
@@ -60,14 +68,14 @@ p {
 
 .bottom-cloud {
   position: absolute;
-  left: 15%;
+  left: 10%;
   width: 12rem;
 }
 
 .top-cloud {
   position: absolute;
   width: 12rem;
-  right: 20%;
+  right: 15%;
   top: 50px;
 }
 
@@ -86,7 +94,7 @@ p {
   width: 25%;
   float: right;
   margin-left: 30px;
-  margin-bottom: 30px;
+
 }
 
 .title {
@@ -101,6 +109,7 @@ p {
   color: #263356;
   margin: 0 50px 50px 50px;
   font-weight: bold;
+  font-
 }
 
 .skill-row {
@@ -128,12 +137,25 @@ p {
 }
 
 .contact-me {
+  padding-top: 1rem;
   padding-bottom: 5rem;
   line-height: 2;
 }
 
 .intro {
   width: 60%;
+  margin: auto;
+}
+.last-h3 {
+  width: 70%;
+  font-weight: lighter;
+  font-size: 1em;
+  margin: auto;
+}
+.last-para {
+  width: 70%;
+  font-weight: lighter;
+  font-size: 1em;
   margin: auto;
 }
 
@@ -145,9 +167,9 @@ p {
   cursor: pointer;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 12px 24px;
+  padding: 3px 10px;
   text-decoration: none;
 }
 
@@ -162,4 +184,8 @@ p {
 
 .car {
   width: 30%
+}
+.footer-link:hover  {
+  color: white;
+
 }
